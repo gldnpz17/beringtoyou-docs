@@ -66,7 +66,7 @@ Status code: `200 OK`
 ### Request
 Contoh:
 
-`https://beringtoyou.com/api/shops/aec14246-120e-4bd5-a1d6-64c48e4a5446`
+`GET https://beringtoyou.com/api/shops/aec14246-120e-4bd5-a1d6-64c48e4a5446`
 #### URL
 `GET https://beringtoyou.com/api/shops/{Shop ID}`
 
@@ -147,3 +147,15 @@ Contoh:
   ]
 }
 ```
+## Mendapatkan Asset Publik
+### Request
+Contoh:
+
+`GET https://beringtoyou.com/api/public/assets/lIB87HUxushn63a1PtKyK4qh9oYg05I2IBw9Rkhdq7S1XdzvhzQPmgMqce9Stx7z.jpg`
+#### URL
+`GET https://beringtoyou.com/api/public/assets/{Filename}`
+
+### Response
+Status Code: `200 OK`
+
+Body berisi file yang di-request.
