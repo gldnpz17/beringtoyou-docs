@@ -1,4 +1,5 @@
 # beringtoyou-docs
+BeringToYou merupakan repositori pedagang pasar beringharjo yang berusaha membantu digitalisasi pasar beringharjo. Berikut merupakan dokumentasi REST API beringtoyou untuk mempermudah integrasi dengan sistem informasi lain.
 
 ## Mendapatkan Daftar Semua Toko
 ### Request
